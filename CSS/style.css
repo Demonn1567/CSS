@@ -1,0 +1,22 @@
+body {
+    padding: 5%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol {
+    list-style-type: upper-roman ;
+}
+
+ul {
+    list-style-type: square;
+    color: salmon;
+}
+/* ul li:nth-child(odd) {
+    color: aqua;
+} */
+
+::marker {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    content: "only 5$"
+}
